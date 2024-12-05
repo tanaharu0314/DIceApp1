@@ -1,6 +1,6 @@
 public class Player {
-    void turn() {
-        
+    void turn(Dice d) {
+        d.roll();
     }
  
  }
